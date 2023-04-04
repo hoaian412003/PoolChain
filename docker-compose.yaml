@@ -88,7 +88,7 @@ services:
       - --miner.etherbase=0x69c9beb160498fe802fd9dc2afb29f397531fe9c
     volumes:
       - ./node1:/node1
-      - ./genesis.json:/node2/genesis.json
+      - ./genesis.json:/node1/genesis.json
     ports:
       - 8888:8888
       - 8552:8552
