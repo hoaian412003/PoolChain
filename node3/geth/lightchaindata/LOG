@@ -6,3 +6,15 @@
 09:24:46.711780 db@open done T·10.559678ms
 09:24:46.822868 db@close closing
 09:24:46.823985 db@close done T·1.111838ms
+=============== Apr 4, 2023 (UTC) ===============
+01:31:48.946234 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:31:48.951426 version@stat F·[] S·0B[] Sc·[]
+01:31:48.952265 db@open opening
+01:31:48.953010 journal@recovery F·1
+01:31:48.953918 journal@recovery recovering @1
+01:31:48.979714 memdb@flush created L0@2 N·366 S·40KiB "\x02d\xfc..\x19Ba,v173":"\xfe\x88\xcf..H\xef\xcc,v106"
+01:31:48.982959 version@stat F·[1] S·40KiB[40KiB] Sc·[0.25]
+01:31:49.008050 db@janitor F·3 G·0
+01:31:49.009158 db@open done T·56.293021ms
+01:31:49.063187 db@close closing
+01:31:49.066268 db@close done T·3.078043ms

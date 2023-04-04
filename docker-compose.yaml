@@ -19,7 +19,7 @@ services:
     env_file:
       - .env
     command:
-      - --networkid=12345
+      - --networkid=686868
       - --datadir=/node3
       - --bootnodes=${ENODE}
       - --port=30309
@@ -69,7 +69,7 @@ services:
     env_file:
       - .env
     command:
-      - --networkid=12345
+      - --networkid=686868
       - --datadir=/node1
       - --bootnodes=${ENODE}
       - --port=30303
@@ -112,7 +112,7 @@ services:
     env_file:
       - .env
     command:
-      - --networkid=12345
+      - --networkid=686868
       - --datadir=/node2
       - --bootnodes=${ENODE}
       - --port=30306
